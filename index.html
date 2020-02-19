@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+   body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.head{
+    margin: 2px auto;
+    padding: 5px 5px;
+    height: 50px;
+    width: 100%;
+    background: #000;
+}
+nav{
+  width: 750px;
+  height: 50px;
+  background-color: #000;
+}
+nav ul{
+  float:left;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  line-height: 50px;
+  color: #fff;
+  background-color:#000;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  later-spacing: 0.5px;
+  transition: 0.6s ease;
+}
+nav ul li a:hover{
+  background-color: #009;
+  opacity: 0.3;
+  color: #fff;
+  }
+.head .ms{
+    float:right;
+    display: inline-block;
+    color: #fff;
+    margin-top: -50px;
+}
+ .head .ms a{
+  text-decoration: none;
+  line-height: 50px;
+  color: #fff;
+  background-color:#000;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  later-spacing: 0.5px;
+  transition: 0.6s ease;
+}
+.head .ms a:hover{
+  background-color: #009;
+  opacity: 0.3;
+  color: #fff;
+  }
+  .title{
+    margin: 2px auto;
+    padding: 5px 5px;
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+}
+.title h1{
+   font-family: vivaldi;
+   font-size: 50px;
+   margin-top: 30px;
+}
+.title h3{
+   font-family: vivaldi;
+   color: #9a9898;
+   
+}
+.margin1{
+  height: 3px;
+  margin: 10px 100px;
+  background-color:#000;
+}
+.margin2{
+  margin: 10px 100px;
+  height: 3px;
+  background-color:#e6e6e6;
+}
+.content{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.image{
+  margin-bottom: 20px;
+  float:left;
+  height: 500px;
+  width: 66%;
+  background-color:#e6e6e6;
+}
+.slider{
+  margin-bottom: 20px;
+  float:left;
+  height: 500px;
+  width: 66%;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../345.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.slider .title1{
+  width:40%;
+  height: auto;
+  position: absolute;
+  left: 18.5%;
+}
+.slider .title1 h1{
+  margin-top: 100px;
+  font-size: 60px;
+  color: #fff;
+  line-height: 70px;
+}
+.slider .title1 h1 span{
+  color: #07d7a7 !important;
+}
+.slider .title1 h1 span span{
+  color: #f00 !important;
+}
+.slider .title1 .btn{
+  color: #fff;
+  border:2px solid #fff;
+  border-radius: 3px;
+  padding: 16px 36px;
+  text-align: center;
+  latter-spacing: 0.5px;
+  text-decoration: none;
+  margin-right: 10px;
+  line-height: 26px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: 0.6s ease;
+}
+
+.slider .title1 .btn:hover{
+  background-color: #272727;
+}
+.slide{
+  float:right;
+  margin-left:10px;
+  height: 805px;
+  width: 30%;
+  border: 2px solid #000;
+}
+.slide .review{
+ margin:5px 10px;
+ height:350px;
+}
+.review h3{
+   font-size: 30px;
+   margin-top: 20px;
+   margin-bottom:50px;
+   color:red;
+}
+.review ul{
+  margin:0;
+}
+.review ul li{
+  list-style:none;
+  display:block;
+}
+.review ul li a{
+  margin:10px 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  font-size: 20px;
+  later-spacing: 0.5px;
+}
+.margin3{
+  margin: 10px 20px;
+  height: 3px;
+  background-color:orange;
+}
+.margin4{
+  height: 3px;
+  margin: 25px 20px;
+  background-color:#000;
+}
+.review .lpost{
+  height:100px;
+  width:97%;
+  margin:10px 10px;
+}
+.lpost img{
+height: 100px;
+width: 150px;
+}
+.lpost p{
+height: 70px;
+width: 200px;
+float:right;
+margin-left:12px;
+color:#9c9696;
+}
+.lpost p a{
+  text-decoration: none;
+  font-size:20px;
+  color:#000;
+}
+.slide1{
+  float:left;
+  height: 285px;
+  width: 66%;
+  border: 2px solid #000;
+}
+.slide1 .nt{
+  margin:10px 10px;
+}
+.slide1 .nt img{
+  height:265px;
+  width:50%;
+  margin-right:10px;
+}
+.slide1 .nt p{
+  height: 265px;
+    width: 45%;
+  float:right;
+  color:#9c9696;
+  overflow:hidden;
+}
+.slide1 .nt p a{
+  text-decoration:none;
+  color:#000;
+  font-size:25px;
+  margin-bottom: 200px;
+}
+.flex-content{
+  margin-top:80px;
+  clear: both;
+  float: left;
+}
+.flex-content .flex-items{
+  width: 20%;
+  height: 200px;
+  display: inline-block;
+  text-align:left;
+  margin-left:46px;
+  overflow:hidden;
+}
+.flex-content .flex-items h5{
+  font-size:18px;
+  color:red;
+  latter-spacing:0.5px;
+  margin:20px 0px;
+}
+.flex-content .flex-items p{
+  color:#272727;
+}
+.footer{
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    background: #6d6b6b;
+}
+.footer a{
+   float:left;
+  color: #9c9696;
+  border:2px solid #9c9696;
+  width:100px;
+  border-radius: 3px;
+  text-align: center;
+  latter-spacing: 0.5px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  line-height: 26px;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.6s ease;
+}
+.footer p{
+height: 100px;
+width: 300px;
+float:right;
+margin-left:12px;
+margin-top: 10px;
+color:#9c9696;
+} 
+  </style>
+	<title>PROGRAMMING HUB</title>
+</head>
+<body>
+  	<div class="conteiner">
+  		<div class="head">
+  			<nav>
+  				<ul>
+  					<li><a href="#">HOMEPAGE</a></li>
+  					<li><a href="#">RECENT POSTS</a></li>
+  					<li><a href="#">BASIC LANGUAGE</a></li>
+  					<li><a href="#">ALGORITHM</a></li>
+  					<li><a href="#">DATA STRUCTURE</a></li>
+  				</ul>
+  			</nav>
+  			<div class="ms">
+  				<a href="https://www.facebook.com/nahidnazm">facebook</a>
+  				<a href="#">twiter</a>
+  				<input type="text"><a href="#">search</a>
+  	   		</div>
+  		</div>
+  	<div class="title">
+  		<h1 align="center">Programing Hub</h1>
+  		<h3 align="center">discussions about catagorized problems</h3>
+  	</div>
+         <div class="margin1"></div>
+  	     <div class="margin2"></div>
+  	<div class="content">
+  		<div class="slider">
+  			<div class="title1">
+  				<h1>Hey! Programmers<span> Welcome to <span>Programming Hub<span></span> </h1>
+     			
+      			<a href="#" class="btn"> Send Mail </a>
+     		</div>	
+  		</div>
+  		<div class="slide">
+  			<div class="review">
+  				<h3 align="center">Latest Reviews</h3>
+  				<ul>
+  					<li><a href="#">Something going on</a></li>
+  						<div class="margin3"></div>
+  					<li><a href="#">Something going on</a></li>
+  						<div class="margin3"></div>
+  					<li><a href="#">Something going on</a></li>
+  					<div class="margin3"></div>
+  					<li><a href="#">Something going on</a></li>
+  						<div class="margin3"></div>
+  				</ul>
+  					<div class="margin4"></div>
+  			</div>
+  			<div class="review">
+  				<h3 align="center">Latest Posts</h3>
+  					<div class="lpost">
+  						<img src="345.jpeg"><p><a href="#">Something going on</a><br>something is better than nothing.. so it's better to have so0mething </p>
+  					</div>
+  					<div class="lpost">
+  						<img src="345.jpeg"><p><a href="#">Something going on</a><br>something is better than nothing to have so0mething </p>
+  					</div>
+  					<div class="lpost">
+  						<img src="345.jpeg"><p><a href="#">Something going on</a><br>something is better than nothing.. so it's better to have so0mething </p>
+  					</div>
+  			</div>
+  		</div>
+  		<div class="slide1">
+  			<div class="nt">
+  				<img src="345.jpeg">
+  				<p align="center"> <a href="#" align="center">cfegsfdmjak,cmn </a><br><br><br> fkdlp;sdrf[gkbhjud[k;vmbhcla'lmfjihvg
+  				jukioplpjvbhnvjms,kvgn 
+  			dgvkuscahm; vv,
+  		hvl,;xkdlkid;pvbju.c,kmjh
+  	 fkvghlvm,;k/a.xc</p>
+  			</div>
+  		</div>
+  </div>
+  <div class="flex-content">
+       <div class="flex-items">
+        <h5>Nazmul Hossain Nahid</h5>
+        <p>’m very excited to invite you to Codeforces Round #621 (Div. 1 + Div. 2), which will take place on Monday, February 17, 2020 at 21:35UTC+6.
+
+In this round, you will be helping Farmer John and his prized cow Bessie cowmplete some fun tasks.
+
+The contest will have 7 problems and is combined and rated for both divisions. The duration is 2 hours and 15 minutes. The problems are prepared by me (FieryPhoenix) and dragonslayerintraining. We tried very hard to make them interesting and hope that you will enjoy them too!
+        </p>
+       </div>
+       <div class="flex-items">
+       <h5>Khan Barkat Ullah Shammo</h5>
+       <p>’m very excited to invite you to Codeforces Round #621 (Div. 1 + Div. 2), which will take place on Monday, February 17, 2020 at 21:35UTC+6.
+
+In this round, you will be helping Farmer John and his prized cow Bessie cowmplete some fun tasks.
+
+The contest will have 7 problems and is combined and rated for both divisions. The duration is 2 hours and 15 minutes. The problems are prepared by me (FieryPhoenix) and dragonslayerintraining. We tried very hard to make them interesting and hope that you will enjoy them too!
+       </p>
+       </div>
+       <div class="flex-items">
+       <h5>RUET</h5>
+       <p>Y’m very excited to invite you to Codeforces Round #621 (Div. 1 + Div. 2), which will take place on Monday, February 17, 2020 at 21:35UTC+6.
+
+In this round, you will be helping Farmer John and his prized cow Bessie cowmplete some fun tasks.
+
+The contest will have 7 problems and is combined and rated for both divisions. The duration is 2 hours and 15 minutes. The problems are prepared by me (FieryPhoenix) and dragonslayerintraining. We tried very hard to make them interesting and hope that you will enjoy them too!
+       </p>
+       </div>
+       <div class="flex-items">
+       <h5>CSE </h5>
+       <p>’m very excited to invite you to Codeforces Round #621 (Div. 1 + Div. 2), which will take place on Monday, February 17, 2020 at 21:35UTC+6.
+
+In this round, you will be helping Farmer John and his prized cow Bessie cowmplete some fun tasks.
+
+The contest will have 7 problems and is combined and rated for both divisions. The duration is 2 hours and 15 minutes. The problems are prepared by me (FieryPhoenix) and dragonslayerintraining. We tried very hard to make them interesting and hope that you will enjoy them too!
+       </p>
+       </div>
+     <div class="footer">
+     	<p>All right reserved by Programming Hub</p>
+     	<a href="#"> back to top </a>
+     </div>
+     </div>
+  </div>
+</body>
+</html>
